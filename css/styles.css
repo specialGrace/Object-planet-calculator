@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/backgroundImg.webp');
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 1rem;
+    margin-bottom: 40px;
+}
+
+.img-container {
+    min-height: 450px;
+    /* background-color: #524a4e; */
+    background-image: url("/images/backgroundImg2.webp");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-left: 120px;
+}
+
+.img{
+    flex: 1;
+    padding-left: 50px
+}
+
+.form {
+    margin-left: 450px;
+    display: flex;
+    
+
+}
+
+div > form > input {
+    padding: 0.5rem;
+}
+
+.selection-btn {
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+
+#para {
+    color: white;
+}
+
+.result {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.planet {
+    flex: 1;
+    padding-right: 60px;
+}
+
+/* mobile responsiveness */
+@media (max-width:520px){
+
+.form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    padding-top: 50px; 
+    /* padding-right: 50px;  */
+    margin-right: 45px;
+    ;
+}
+
+ .planet{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding-bottom:20px;
+} 
+
+
+
+
+
+
+
+
+}
